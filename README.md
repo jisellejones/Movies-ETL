@@ -2,9 +2,11 @@
 
 
 ## Overview
+
 The purpose of this project was to create an automated pipeline to take in new data, perform the appropriate transformations, and load the clean data into existing tables. The goal was to create one function that takes in the three files (Wikipedia data, Kaggle metadata, and the MovieLens rating data) and carries out the ETL process resulting in two clean data tables in a PostgreSQL database.
 
 ## Resources
+
 - Data Sources
     - Wikipedia Movie Data: [Wikipedia API](https://www.mediawiki.org/wiki/)
         - wikipedia-movies.json
